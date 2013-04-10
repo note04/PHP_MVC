@@ -1,0 +1,21 @@
+package structure
++ 
+|--  Object.class.php
+|--  config.class.php
+|--+ pdbc/
+   |------  DriverManager.class.php
+   |------+ interface
+          |-------  
+   |------+ mysql/
+          |-------  Connection.class.php
+	  |-------  Driver.class.php
+	  |-------  PreparedStatement.class.php
+	  |-------  ResultSet.class.php
+	  |-------  ResultSetMetaData.class.php
+	  |-------  Statement.class.php
+   + util/
+   |------  String.class.php
+   |------  StringBuffer.class.php
+   |------  StringTokenizer.class.php
+   |------  Vector.class.php
+   |------  StringUtils.class.php
